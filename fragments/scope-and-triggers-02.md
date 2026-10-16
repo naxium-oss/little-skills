@@ -1,0 +1,5 @@
+- The intended valid case and boundary case have observed results, or remain explicitly labeled unexecuted.
+- The implementation preserves the stated invariant and does not broaden the public contract accidentally.
+- Invalid cases fail for the expected reason; fixtures do not hide failures or disable assertions.
+- Environment, configuration, dependency evidence, and dated authoritative references are attached.
+- Any claimed cost is supported by a derivation or a measured workload, never a universal speed claim.

@@ -1,0 +1,5 @@
+- Read the applicable repository instructions and establish an authorized working scope.
+- Obtain the target repository commit, relevant configuration, input fixture, and the actual execution context, not a convenient substitute.
+- Use permission-scoped file inspection, a terminal or target console, official documentation retrieval, and the target's verified test or measurement tools.
+- Start read-only. Request appropriate authorization before changing shared state, accessing sensitive data, running untrusted code, or performing security testing.
+- If a required tool, account, artifact, or permission is unavailable, record the missing prerequisite and return **blocked** or **inconclusive**. Do not simulate tool access or fabricate output.

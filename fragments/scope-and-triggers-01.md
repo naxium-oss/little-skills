@@ -1,0 +1,5 @@
+1. Exact runtime/compiler, package, framework, and service versions or builds; include the complete command output, not only a major version.
+2. OS, architecture, CPU, memory, and relevant GPU/accelerator and driver details. Record browser/engine or remote region/tier when relevant; otherwise explicitly mark not applicable.
+3. Configuration, feature flags, compiler options, environment variables with secrets redacted, and dependency lockfile paths plus checksums. Record “no external dependencies” only after inspection.
+4. Version-matched authoritative documentation URLs, exact sections or quotations, publication/revision information, and UTC retrieval dates. Reference links here are starting points, not retrieved evidence.
+5. A reproducible fixture, commands, exit codes, observed stdout/stderr, and artifact hashes. Distinguish expected output in this guide from output actually observed in your environment.

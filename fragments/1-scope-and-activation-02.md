@@ -1,0 +1,6 @@
+1. **Versions and builds:** runtime executable path, full runtime/compiler build, framework and plugin versions, installed direct and transitive dependencies, service or model revision.
+2. **Runtime and hardware:** operating system, kernel, architecture, libc, CPU, memory, browser/engine when relevant, GPU, driver, accelerator runtime, and device topology.
+3. **Configuration:** effective flags, configuration precedence, relevant redacted environment values, concurrency, locale, timezone, resource limits, region, tier, and account-specific quotas.
+4. **Reproducibility:** repository commit and dirty state, lockfile hash, dependency graph, container digest, dataset/input hashes, seeds, and harness revision.
+5. **Sources:** authoritative URL, matching version or source tag, exact supporting passage, publication/revision date, retrieval timestamp in UTC, and archived snapshot or content hash when feasible.
+6. **Observed output:** exact command or tool call, working directory, execution context, timestamp, exit status, stdout, stderr, and an artifact identifier. Redact sensitive material without erasing the relevant result.

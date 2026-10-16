@@ -1,0 +1,17 @@
+# Scratchpad
+
+## Task
+150-token SLM skill cards for the whole library. Done.
+
+## Outcome
+- 1080 builtin + 116 community cards, each with Use-when quotes, steps, one example, one check
+- Image skills: count-with-tools, explain-codebase, clone-from-reference, suggest-features, suggest-improvements, clean-dry-code
+- Extra agent cards for read-before-edit, search, minimal diff, errors, tests, commits, flakes, browser checks
+- Originals preserved in ../skills-original-backup
+- tests/test_skill_cards.py passes
+
+## Lessons
+- Skillstack worked examples are often copied from another skill. Do not teach them.
+- A short quote inside a longer skill title is a false positive unless the longer match wins.
+- Collapsing newlines before reading a numbered list drops every step but the first.
+- Baseline without a TDD skill: the agent wrote the implementation because the user said to skip tests. With the card, the first artifact was the test file.

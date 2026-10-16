@@ -1,0 +1,4 @@
+- **Verified fact:** supported by the exact target artifact or a version-matched authoritative source. Include evidence identifier, scope, timestamp, and limitations.
+- **Experimental result:** directly observed in a described test. Include method, inputs, sample count, failures, uncertainty where relevant, and raw result location. Do not generalize beyond the experiment.
+- **Assumption:** a premise not yet established. Explain why it is needed, its impact if false, and how to test it.
+- **Unknown:** missing, inaccessible, conflicting, or stale evidence. State what evidence would resolve it and whether it blocks the decision.

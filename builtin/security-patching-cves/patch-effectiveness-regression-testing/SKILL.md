@@ -1,0 +1,19 @@
+---
+name: patch-effectiveness-regression-testing
+description: "Use when \"patch effectiveness regression testing\" is the work. Confirm the vulnerability fixture is blocked after patching while legitimate behavior remains valid."
+---
+
+# Patch Effectiveness Regression Testing
+
+Confirm the vulnerability fixture is blocked after patching while legitimate behavior remains valid.
+
+1. Cross-check vendor advisories and independent databases with retrieval dates.
+2. Map affected ranges to the deployed artifact including backports.
+3. Assess configuration and reachability before applying the smallest supported remediation.
+
+Example:
+```text
+Cross-check vendor advisories and independent databases with retrieval dates.
+```
+
+Check: Reproduce only in an authorized isolated environment; validate patch effectiveness and compatibility; track exceptions with owners and expiry.
